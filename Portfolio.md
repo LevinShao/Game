@@ -2,7 +2,7 @@
 # **By Levin Shao**
 ## **Section 1: Identifying and Defining**
 ### **Identifying a Need**
-**2D Roguelike Game Examples:**
+**2D Roguelike Game Examples**
 - Dead Cells (2018)
 - Slay the Spire (2019)
 - The Binding of Isaac (2011)
@@ -28,15 +28,15 @@
 | Challenging and diffcult yet rewarding gameplay | Can feel overwhelming with its many items and enemies | Procedurally generated rooms and item drops keep it exciting and addictive |
 | Huge variety of items and power-ups available for the player to use | High level of difficulty and very complex, making it difficult for newcomers to learn the game | Story elements are delivered through cryptic clues and symbolism |
 
-**Possible Game Ideas & User Needs:**
+**Possible Game Ideas & User Needs**
 - **Procedural Generation:** Randomized levels with different themes and dynamic layouts
 - **Combat Mechanics:** Huge variety of weapons and special abilities available for the players to choose from; responsive controls
-- **Lore:** A good storyline involving mystery plots, hidden secrets, and narrative hints
-- **Replayability:** Unlockable items; multiple endings; random events for more rewards, making the game more fun and replayable
+- **Lore:** A good and consistent storyline involving mystery plots, hidden secrets, and narrative hints
+- **Replayability:** Unlockable characters; multiple endings including some being secret; random events for more rewards, making the game more fun and replayable
 - **User Interface:** Simple and minimalist UI design with a clear HUD and easily-accessible options
-- **Character Progression:** Skill levels which the player can grow; upgradeable weapons and unlockable abilities
+- **Character Progression:** Skill levels which the player can increase in; upgradeable weapons and unlockable abilities
 - **Enemy AI:** Challenging enemies and bosses (for boss fights) with adaptive behavior
-- **Sound Design:** Atmospheric music and unique sound effects with dynamic audio cues throughout
+- **Sound Design:** Atmospheric music and unique sound effects with dynamic audio cues throughout the gameplay
 
 **Need:** To provide players with an exciting and challenging 2D gaming experience that improves their skills at strategic thinking, adaptability, and quick decision-making through procedurally generated levels and increasingly difficult enemies in a 2D Roguelike game.
 
@@ -46,31 +46,27 @@
 ### **Requirements Outline**
 **Inputs:**
 ##### Keyboard Inputs:
-- Arrow keys and WASD for basic player movement (up, down, left, right).
-- Spacebar and “E” for interaction with objects.
-- Escape key for opening pause menu or quitting the game.
+- Arrow keys and WASD for basic player movement (W - going up by using items such as ladders; A - going left; S - sneaking; D - going right)
+- Spacebar for jumping
+- “E” for interaction with objects
+- Escape key for opening pause menu or quitting the game
 ##### Mouse Inputs:
-- Clicking buttons in the UI (e.g. start game, restart, quit).
-##### Game Controller Inputs:
-- Analog stick or D-pad for movement.
-- “A” button for interacting with objects.
+- Clicking buttons in the UI (e.g. start game, restart, quit)
 
 **Processing:**
 
-##### Player Movement Logic:
-Input directions will be processed to move the player character across the grid-based roguelike map. Collision detection with obstacles, walls, and enemies should also be implemented.
+My 2D Roguelike game will:
+* Process input directions to move the player character across the grid-based roguelike map
+* Implement collision detection with obstacles, walls, and enemies
+* Determine if enemies are hit, calculate damage, and check if enemies are defeated based on player attacks
+* Calculate if enemies hit the player and reduce player health accordingly
+* Implement pathfinding logic where enemies move towards the player, avoid obstacles, and attack when in range
+* Procedurally generate each level’s layout, including rooms, walls, traps, enemies, and loot
+* Manage transitions between different game states: playing, paused, game over, and level completion
+* Process interactions when the player picks up items and apply the corresponding effects
 
-##### Combat and Damage Calculation:
-Based on player attacks, determine if enemies are hit, calculate damage, and check if enemies are defeated. Similarly, calculate if enemies hit the player and reduce player health accordingly.
+**Output:**
 
-##### Enemy AI:
-Implement pathfinding logic where enemies move towards the player, avoid obstacles, and attack when in range.
 
-##### Random Level Generation:
-Procedurally generate each level’s layout, including rooms, walls, traps, enemies, and loot.
-
-##### Game States:
-Manage transitions between different game states: playing, paused, game over, and level completion.
-
-##### Item Interaction:
-Process interactions when the player picks up items (e.g., health potions, weapons) and apply the corresponding effects.
+### **Functional Requirements**
+Users
