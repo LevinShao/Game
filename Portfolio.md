@@ -56,28 +56,84 @@
 **Processing:**
 
 My 2D Roguelike game will:
-* Process input directions to move the player character across the grid-based roguelike map
-* Implement collision detection with obstacles, walls, and enemies
-* Determine if enemies are hit, calculate damage, and check if enemies are defeated based on player attacks
-* Calculate if enemies hit the player and reduce player health accordingly
-* Implement pathfinding logic where enemies move towards the player, avoid obstacles, and attack when in range
-* Procedurally generate each level’s layout, including rooms, walls, traps, enemies, and loot
-* Manage transitions between different game states: playing, paused, game over, and level completion
-* Process interactions when the player picks up items and apply the corresponding effects
+- Process input directions to move the player character across the grid-based roguelike map
+- Implement collision detection with obstacles, walls, and enemies
+- Determine if enemies are hit, calculate damage, and check if enemies are defeated based on player attacks
+- Implement pathfinding logic where enemies move towards the player, avoid obstacles, and attack when in range
+- Procedurally generate each level's layout, including rooms, walls, traps, enemies, and loot
+- Process interactions when the player picks up items and apply the corresponding effects
 
 **Output:**
 
-My 2D Roguelike Game will display:
-- The player's score
-- The enemies
-- Any obstacles in the player's POV
+My 2D Roguelike game will display:
+- The player's position, enemies, items, and terrain changes in real-time
+- Sound effects for when the player attacks, picks up items, and kills enemies
+- Damage to enemies or the player using visual feedback such as flashing or health bars reducing
+- Special effects for abilities or power-ups such as explosions and lighting
+- The player's health, collected items, abilities, and score
+- On-screen notifications for achievements, level completion, or player death
 
+**Transmission:**
+
+Since I am planning the game to be **singleplayer** only, my game wouldn't need too many data transmission requirements.
+However, even if the game is in singleplayer, some components may still require transmission. For examples, my 2D Roguelike game might need to:
+- Transmit data between the player's device and a server in order to save progress and download new updates for the player
+- Send player scores and achievements to a central server
+
+**Storage:**
+
+My 2D Roguelike game will store:
+- The player's progress, including completed levels, unlocked items, and achievements.
+- User preferences like sound levels, key bindings, and control settings will be saved locally.
+- Random seed used for procedural generation, so players can revisit the same generated levels.
+- High scores or other records to track the player's best runs locally or online.
 ### **Functional Requirements**
-- The game uses random dungeon generation to increase replayability.
-- The game uses permadeath, meaning that once a character dies, the player must begin a new game which will regenerate the game's levels anew due to procedural generation.
-- The game is turn-based, giving the player as much time as needed to make a decision.
-- The game is non-modal, in that every action should be available to the player regardless of where they are in the game.
-- The game has a degree of complexity due to the number of different game systems in place that allow the player to complete certain goals in multiple ways, creating emergent gameplay.
-- The player must use resource management to survive.
-- The game is focused on hack and slash-based gameplay, where the goal is to kill many monsters, and where other peaceful options do not exist.
-- The game requires the player to explore the world, and discover the purpose of unidentified items.
+**User Interaction:**
+- The game will be able to process the user inputs and let them control the character, interact with objects or NPCs, attack enemies and bosses, and select and switch weapons
+- The player is able to open and navigate through the main menu, pause menu or settings
+- The game will let some actions only trigger in appropriate contexts (e.g. can't attack during dialogue)
+
+**Core Gameplay:**
+- Each level will be randomly generated, featuring different room layouts, enemy spawns, and item placements
+- Collision detection will prevent the player from walking through walls or obstacles
+- When the player attacks, the game will process damage calculations based on the weapon type, enemy stats, and random factors
+- Enemies will follow specific behavior patterns and adapt based on player actions
+- Players are able to pick up items found in the environment, which will be added to their inventory
+- Some items will have effects on the player character that trigger immediately or when used
+
+**Scoring and Feedback:**
+- The game will track the player's health, showing a health bar that decreases as the player takes damage
+- Damage taken will trigger visual feedback and sound effects
+- The game will track player score based on defeated enemies, completed levels, or collected items, and display them in real-time on the HUD
+- Messages will notify the player upon completing significant actions (e.g. “Rare Item Unlocked!” when the player discovers a rare item)
+
+**Level Progression:**
+- Players will advance to the next level by reaching the exit point in the current level
+- Upon level completion, the player may receive rewards, such as upgraded items or new abilities
+- With each new level, the game will increase difficulty by adding more challenging enemies, traps, or environmental hazards
+- Players may encounter random events (e.g., minibosses) that add variability to level progression
+- Some levels will feature boss encounters that the player must defeat to progress further
+- These encounters will have unique mechanics and may unlock special rewards upon victory
+
+**Saving and Loading Data:**
+
+- The game will autosave player progress after each level, including the player's health, items, score, and current level
+- Saved data will be stored locally on the user's device
+- Settings like audio volume, control schemes, and display settings will be saved and reloaded when the player restarts the game
+- The game will save high scores locally, which will be displayed in the game's main menu or in a dedicated leaderboard section
+- Optionally, the game could offer online scoreboards, transmitting score data to cloud storage for comparison with other players
+### **Non-Functional Requirements**
+**Performance Requirements:**
+- The game will load within 5 seconds on standard PCs
+- Frame rate will be maintained at 60 FPS even during intense combat or with multiple enemies on screen
+- The game will respond to user inputs instantly, with less than 80ms of ping to ensure responsive and fluid controls
+
+**Usability Requirements:**
+- The game will have a intuitive and simplistic UI with clear indicators for health, inventory, and abilities, allowing players to quickly understand game mechanics
+- A tutorial level will be added to guide new players through the basic controls and mechanics
+- The game will include tooltips or quick explanations for items, abilities, and status effects when hovered over or selected
+
+**Compatibility Requirements:**
+- The game must be compatible with Windows, macOS, and Linux
+- The user interface and controls will adapt for keyboard/mouse setups on PC
+- The game will be optimized for different screen resolutions and aspect ratios, maintaining visual clarity and functionality on both standard and widescreen displays
