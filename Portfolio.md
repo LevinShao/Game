@@ -10,23 +10,23 @@
 **Dead Cells: PMI Table**
 | Plus | Minus | Interesting |
 | --- | --- | --- |
-| Fluid and satisfying combat system | High difficulty which may frustrate some players | Procedural generation keeps levels fresh and original |
-| Amazing pixel art with atmospheric environments | Lack of lore and traditional narrative depth | Perma-death feature adds tension and excitement to the game |
-| Responsive controls and tight platforming | Repetitive grind for new weapons and upgrades | Weapons and abilities can radically change playstyle |
+| Fluid and satisfying combat system | High difficulty which may frustrate some players | The levels are kept fresh and original thanks to procedural generation |
+| Amazing pixel art with atmospheric environments | Lack of story lore and traditional narrative depth | Tension and excitement is added to the game through the usage of the perma-death feature |
+| Responsive controls and tight platforming | Repetitive grinding is required to unlock new weapons and upgrades | Weapons and abilities can radically change the player's playstyle |
 
 **Slay the Spire: PMI Table**
 | Plus | Minus | Interesting |
 | --- | --- | --- |
 | Innovative card-based combat system | Can feel very boring and repetitive over time | Deck-building mechanic adds layers of strategy to the game |
-| Highly strategic and requires deep thinking | Lack of animation and graphical excitement | Combines roguelike elements with card games |
-| Every run feels different, thanks to randomization | Some RNG can ruin good strategies in a single move | Synergizing cards can create powerful combos |
+| Highly strategic and requires deep thinking and problem solving | Lack of animation and graphical excitement | Combines roguelike elements with card games |
+| Every run feels different, thanks to randomization | Some RNG can ruin good strategies in a single move | Powerful combos can be created by synergizing cards |
 
 **The Binding of Isaac: PMI Table**
 | Plus | Minus | Interesting |
 | --- | --- | --- |
-| Endless replayability due to randomization | Dark and grotesque themes may not appeal to everyone | Unpredictable combinations of items create unique experiences for the player |
-| Challenging and diffcult yet rewarding gameplay | Can feel overwhelming with its many items and enemies | Procedurally generated rooms and item drops keep it exciting and addictive |
-| Huge variety of items and power-ups available for the player to use | High level of difficulty and very complex, making it difficult for newcomers to learn the game | Story elements are delivered through cryptic clues and symbolism |
+| Endless replayability due to randomization | Contains dark and grotesque themes and imagery, which may not appeal to everyone | Unpredictable combinations of items create unique experiences for the player |
+| Challenging and diffcult yet rewarding gameplay | Can feel overwhelming with its many items and enemies | Exciting and addictive for the player due to procedurally generated rooms and item drops |
+| Huge variety of items and power-ups available for the player to use | High level of difficulty and very complex, which makes it difficult for newcomers to learn the game | Story elements are delivered through cryptic clues and symbolism |
 
 **Possible Game Ideas & User Needs**
 - **Procedural Generation:** Randomized levels with different themes and dynamic layouts
@@ -42,7 +42,7 @@
 
 **Problem Statement:** Many players often seek games that offer both replayability and a dynamic challenge. A 2D Roguelike game that features procedurally generated environments, unique and challenging enemies, as well as randomized loot can satisfy this demand by requiring players to think strategically and adapt quickly to unpredictable situations. This game will offer a satisfying progression of difficulty, which will push players to refine their skills and develop new tactics with each playthrough.
 
-**Skill Development:** To develop the necessary skills for making the game in Unity, I will need to study and complete the 2D Roguelike tutorial available on Unity Learn.
+**Skill Development:** To develop the necessary skills for making the game in Unity, I will need to study and complete the 2D Roguelike tutorial available on Unity Learn. I will also have to do a lot of background research and watch a lot of YouTube tutorials in order to build the perfect 2D Roguelike game
 ### **Requirements Outline**
 **Inputs:**
 ##### Keyboard Inputs:
@@ -67,6 +67,17 @@ My 2D Roguelike game will:
 
 **Output:**
 
+My 2D Roguelike Game will display:
+- The player's score
+- The enemies
+- Any obstacles in the player's POV
 
 ### **Functional Requirements**
-Users
+- The game uses random dungeon generation to increase replayability.
+- The game uses permadeath, meaning that once a character dies, the player must begin a new game which will regenerate the game's levels anew due to procedural generation.
+- The game is turn-based, giving the player as much time as needed to make a decision.
+- The game is non-modal, in that every action should be available to the player regardless of where they are in the game.
+- The game has a degree of complexity due to the number of different game systems in place that allow the player to complete certain goals in multiple ways, creating emergent gameplay.
+- The player must use resource management to survive.
+- The game is focused on hack and slash-based gameplay, where the goal is to kill many monsters, and where other peaceful options do not exist.
+- The game requires the player to explore the world, and discover the purpose of unidentified items.
