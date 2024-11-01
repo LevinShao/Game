@@ -95,7 +95,7 @@ My 2D Roguelike game will store:
 ### **Non-Functional Requirements**
 **Performance Requirements:**
 - The game will load within 5 seconds on standard PCs
-- Frame rate will be maintained at 60 FPS even during intense combat or with multiple enemies on screen
+- Frame rate will be maintained at 60 FPS (frames per second) even during intense combat or with multiple enemies on screen
 - The game will respond to user inputs instantly, with less than 80ms of ping to ensure responsive and fluid controls
 
 **Usability Requirements:**
@@ -126,27 +126,25 @@ The game should avoid using any symbols, themes, or language that could be deeme
 ## **Section 2: Researching and Planning**
 ### **Exploration of Existing Ideas**
 **2D Roguelike Game Examples**
-- Dead Cells (2018)
-- Slay the Spire (2019)
-- The Binding of Isaac (2011)
+- Dead Cells (2018) by Motion Twin, Evil Empire, and Playdigious
+- Slay the Spire (2019) by Mega Crit
+- The Binding of Isaac (2011) by Edmund McMillen and Florian Himsl
 
-**Dead Cells: PMI Table**
-| Plus | Minus | Interesting |
-| --- | --- | --- |
-| Satisfying combat system | High level of difficulty | The levels are kept fresh and original thanks to procedural generation |
-| Amazing pixel art with atmospheric environments | Lack of lore and narrative depth | Perma-death feature adds tension and excitement for the player |
-| Very responsive controls | Repetitive grinding is required to unlock new weapons and upgrades | Weapons and abilities can radically change the player's playstyle |
+**PMI Tables**
+| Game 1 | Plus | Minus | Interesting |
+| --- | --- | --- | --- |
+| **Dead Cells (2018)** | Satisfying combat system | High level of difficulty  | The levels are kept fresh and original thanks to procedural generation |
+| **Dead Cells Cover** ![Dead Cells Cover Image](/images/dead-cells/dead-cells-cover.jpg) | Amazing pixel art with atmospheric environments | Lack of lore and narrative depth | Perma-death feature adds tension and excitement for the player |
+| **Dead Cells Gameplay** ![Dead Cells Gameplay Image](/images/dead-cells/dead-cells-gameplay.jpg) | Very responsive controls | Repetitive grinding is required to unlock new weapons and upgrades | Weapons and abilities can radically change the player's playstyle |
 
-**Slay the Spire: PMI Table**
-| Plus | Minus | Interesting |
-| --- | --- | --- |
-| Innovative card-based combat system | Becomes very boring and repetitive over time | Deck-building mechanic adds layers of strategy to the game |
-| Requires deep thinking and problem solving skills | Lack of animation and graphics | Combines roguelike elements with card games |
-| Every run feels different thanks to randomization | Some RNG can ruin good strategies in a single move | Powerful combos can be created by synergizing cards |
+| Game 2 | Plus | Minus | Interesting |
+| --- | --- | --- | --- |
+| **Slay the Spire (2019)** | Innovative card-based combat system | Becomes very boring and repetitive over time | Deck-building mechanic adds layers of strategy to the game |
+| **Slay the Spire Cover** ![Slay the Spire Cover Image](/images/slay-the-spire/slay-the-spire-cover.jpg) | Requires deep thinking and problem solving skills | Lack of animation and graphics | Combines roguelike elements with card games |
+| **Slay the Spire Gameplay** ![Slay the Spire Gameplay Image](/images/slay-the-spire/slay-the-spire-gameplay.jpg) | Every run feels different thanks to randomization | Some RNG can ruin good strategies in a single move | Powerful combos can be created by synergizing cards |
 
-**The Binding of Isaac: PMI Table**
-| Plus | Minus | Interesting |
-| --- | --- | --- |
-| Endless replayability due to randomization | Contains dark and grotesque themes and imagery | Unpredictable combinations of items makes the game more thrilling |
-| Challenging yet rewarding gameplay | Can feel overwhelming with its many items and enemies | Exciting and addictive due to procedurally generated rooms and item drops |
-| Huge variety of items and power-ups available for the player to use | High level of difficulty and very complex | Story elements are delivered through cryptic clues and symbolism |
+| Game 3 | Plus | Minus | Interesting |
+| --- | --- | --- | --- |
+| **The Binding of Isaac (2011)** | Endless replayability due to randomization | Contains dark and grotesque themes and imagery | Unpredictable combinations of items makes the game more thrilling |
+| **The Binding of Isaac Cover** ![The Binding of Isaac Cover Image](/images/the-binding-of-isaac/the-binding-of-isaac-cover.jpg) | Challenging yet rewarding gameplay | Can feel overwhelming with its many items and enemies | Exciting and addictive due to procedurally generated rooms and item drops |
+| **The Binding of Isaac Gameplay** ![The Binding of Isaac Gameplay Image](/images/the-binding-of-isaac/the-binding-of-isaac-gameplay.jpg) | Huge variety of items and power-ups available for the player to use | High level of difficulty and very complex | Story elements are delivered through cryptic clues and symbolism |
