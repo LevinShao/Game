@@ -63,7 +63,10 @@ My 2D Roguelike game will store:
 - High scores or other records to track the player's best runs locally or online.
 ### **Functional Requirements**
 **User Interaction:**
-- The game will be able to process the user inputs and let them control the character, interact with objects or NPCs, attack enemies and bosses, and select and switch weapons
+- The game will be able to process the user inputs and let them control the character, interact with objects and NPCs, attack enemies and bosses, and select and switch weapons
+- Users will be able to control and move the character using the A and D keys, or the left and right arrow keys. When the user presses the A/left arrow key, the character will move left. When the user presses the D/right arrow key, the character will move right.
+- Users make the character jump by pressing the W/spacebar/up arrow key.
+- Users can interact with objects and NPCs by pressing the E key. When they press the E key on an object, depending on what the object is, the player can either collect it, or the object can deal effects on the player.
 - The player is able to open and navigate through the main menu, pause menu or settings
 - The game will let some actions only trigger in appropriate contexts (e.g. can't attack during dialogue)
 
@@ -79,19 +82,19 @@ My 2D Roguelike game will store:
 - The game will track the player's health, showing a health bar that decreases as the player takes damage
 - Damage taken will trigger visual feedback and sound effects
 - The game will track player score based on defeated enemies, completed levels, or collected items, and display them in real-time on the HUD
-- Messages will notify the player upon completing significant actions (e.g. “Rare Item Unlocked!” when the player discovers a rare item)
+- Messages will pop up and notify the player upon completing significant actions (e.g. “Rare Item Unlocked!” when the player discovers a rare item)
 
 **Level Progression:**
 - Players will advance to the next level by reaching the exit point in the current level
 - Upon level completion, the player will receive rewards such as upgraded items and new abilities
-- With each new level, the game will increase difficulty by adding more challenging enemies, traps, or environmental hazards
+- With each new level, the game will increase difficulty by adding more challenging enemies and traps
 - Some levels will feature boss encounters that the player must defeat to progress further. These encounters will have unique mechanics and will unlock special rewards upon victory
 
 **Saving and Loading Data:**
 - The game will autosave player progress after each level, including the player's health, items, score, and current level
 - Saved data will be stored locally on the user's device
 - Settings like audio volume and display settings will be saved and reloaded when the player restarts the game
-- The game will save high scores locally, which will be displayed in the game's main menu.
+- The game will save high scores locally, which will be displayed in the game's main menu
 ### **Non-Functional Requirements**
 **Performance Requirements:**
 - The game will load within 5 seconds on standard PCs
@@ -148,3 +151,5 @@ The game should avoid using any symbols, themes, or language that could be deeme
 | **The Binding of Isaac (2011)** | Endless replayability due to randomization | Contains dark and grotesque themes and imagery | Unpredictable combinations of items makes the game more thrilling |
 | **The Binding of Isaac Cover** ![The Binding of Isaac Cover Image](/images/the-binding-of-isaac/the-binding-of-isaac-cover.jpg) | Challenging yet rewarding gameplay | Can feel overwhelming with its many items and enemies | Exciting and addictive due to procedurally generated rooms and item drops |
 | **The Binding of Isaac Gameplay** ![The Binding of Isaac Gameplay Image](/images/the-binding-of-isaac/the-binding-of-isaac-gameplay.jpg) | Huge variety of items and power-ups available for the player to use | High level of difficulty and very complex | Story elements are delivered through cryptic clues and symbolism |
+
+### **Flowchart and Pseudocode**
