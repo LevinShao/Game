@@ -64,11 +64,15 @@ My 2D Roguelike game will store:
 ### **Functional Requirements**
 **User Interaction:**
 - The game will be able to process the user inputs and let them control the character, interact with objects and NPCs, attack enemies and bosses, and select and switch weapons
-- Users will be able to control and move the character using the A and D keys, or the left and right arrow keys. When the user presses the A/left arrow key, the character will move left. When the user presses the D/right arrow key, the character will move right.
+- Users will be able to control and move the character around the map using the A and D keys, or the left and right arrow keys. 
+  - When the user presses the A/left arrow key, the character will move left. 
+  - When the user presses the D/right arrow key, the character will move right.
 - Users make the character jump by pressing the W/spacebar/up arrow key.
-- Users can interact with objects and NPCs by pressing the E key. When they press the E key on an object, depending on what the object is, the player can either collect it, or the object can deal effects on the player.
+- Users can interact with objects and NPCs by pressing the E key. 
+  - When they press the E key on an object, depending on what the object is, the player can either add it to their inventory, or the object can deal effects on the player.
+  - When they press the E key on a NPC, they can activate their dialogue. The user can proceed with the NPC's dialogue by pressing the F key.
+  - Also, when the NPC is displaying their dialogue, the game will not let player make any other interactions other than proceeding with the dialogue.
 - The player is able to open and navigate through the main menu, pause menu or settings
-- The game will let some actions only trigger in appropriate contexts (e.g. can't attack during dialogue)
 
 **Core Gameplay:**
 - Each level will be randomly generated, featuring different room layouts, enemy spawns, and item placements
