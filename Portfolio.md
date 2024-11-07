@@ -63,16 +63,22 @@ My 2D Roguelike game will store:
 - High scores or other records to track the player's best runs locally or online.
 ### **Functional Requirements**
 **User Interaction:**
-- The game will be able to process the user inputs and let them control the character, interact with objects and NPCs, attack enemies and bosses, and select and switch weapons
-- Users will be able to control and move the character around the map using the A and D keys, or the left and right arrow keys. 
-  - When the user presses the A/left arrow key, the character will move left. 
-  - When the user presses the D/right arrow key, the character will move right.
-- Users make the character jump by pressing the W/spacebar/up arrow key.
-- Users can interact with objects and NPCs by pressing the E key. 
-  - When they press the E key on an object, depending on what the object is, the player can either add it to their inventory, or the object can deal effects on the player.
-  - When they press the E key on a NPC, they can activate their dialogue. The user can proceed with the NPC's dialogue by pressing the F key.
-  - Also, when the NPC is displaying their dialogue, the game will not let player make any other interactions other than proceeding with the dialogue.
-- The player is able to open and navigate through the main menu, pause menu or settings
+
+Since my game will be suitable for PC only, players can only interact with the game using keyboard and mouse controls.
+- Players will be able to control and move the character around the map using the A and D keys, or the left and right arrow keys
+  - When the user presses the A/left arrow key, the character will move left
+  - When the user presses the D/right arrow key, the character will move right
+- Players can jump by pressing the W/spacebar/up arrow key
+- Players can sneak/crouch by pressing the S/down arrow key
+- Players can interact with objects and NPCs by pressing the E key
+  - When they press the E key on an object, depending on what type of object it is, the player can either add it to their inventory, open the object, or the object can deal effects on the player
+  - When they press the E key on a NPC, they can activate their dialogue. The user can proceed with the NPC's dialogue by pressing the F key
+  - Also, when the NPC is displaying their dialogue, the game will not let player make any other interactions other than proceeding with the dialogue
+- The player will be able to open their inventory by pressing the Q key. The user can then use their mouse to interact with objects inside of their inventory
+- The player will be able to open a pause menu that pauses player progress. After that, the player can use the mouse to decide what they want to do next (e.g. quit, restart, resume)
+- The player can select and equip different weapons/abilities using their mouse when not in a battle
+- My game can support the player to use 3 abilities and store 3 weapons in their inventory at once. But during battles, the player can only attack enemies/bosses with one weapon. Therefore, players can either use their mouse or use the O and P keys to switch to a different weapon during an intense battle, and they can use the Z/X/C keys to activate and deactivate their 3 abilities. (Z for ability 1, X for ability 2 and C for ability 3)
+- The player can use their mouse to navigate the main menu and scroll through the settings. The player can make adjustments in the settings depending on their needs with their mouse
 
 **Core Gameplay:**
 - Each level will be randomly generated, featuring different room layouts, enemy spawns, and item placements
@@ -157,3 +163,77 @@ The game should avoid using any symbols, themes, or language that could be deeme
 | **The Binding of Isaac Gameplay** ![The Binding of Isaac Gameplay Image](/images/the-binding-of-isaac/the-binding-of-isaac-gameplay.jpg) | Huge variety of items and power-ups available for the player to use | High level of difficulty and very complex | Story elements are delivered through cryptic clues and symbolism |
 
 ### **Flowchart and Pseudocode**
+User Interaction Pseudocode   
+
+    WHILE Dialogue IS NOT active
+      BEGIN MOVEMENT
+      INPUT userInput
+      IF 'D' pressed THEN
+        Move Player right
+      ELSE IF 'A' pressed THEN
+        Move Player left
+      ELSE IF 'Spacebar' or 'W' or 'up arrow' pressed THEN
+        IF player touching ground THEN
+          Make Player jump
+        ELSE
+          pass
+      ELSE IF 'S' or 'down arrow' pressed THEN
+        IF player touching ground THEN
+          Make Player crouch
+        ELSE
+          pass
+      ELSE IF 'E' pressed THEN
+        IF Player interacting WITH Object THEN
+          IF Object IS obtainable THEN
+            collect Object
+          ELSE IF Object IS openable THEN
+            open Object
+          ELSE IF Object IS harmful THEN
+            Object give Player NEGATIVE Effects
+          ELSE
+            Object give Player POSITIVE Effects
+        ELSE IF Player interacting WITH NPC THEN
+          activate Dialogue
+        ELSE
+          pass
+      ELSE IF 'Q' pressed THEN
+        open Inventory
+      ELSE IF 'F' pressed THEN
+        IF Dialogue IS active
+          continue Dialogue
+        ELSE
+          pass
+      END MOVEMENT
+      ELSE IF 'O' pressed THEN
+        IF Player IS IN battle
+          equip Weapon on right
+        ELSE
+          pass
+      ELSE IF 'P' pressed THEN
+        IF Player IS IN battle
+          equip Weapon on left
+        ELSE
+          pass
+      ELSE IF 'Z' pressed THEN
+        IF Player IS IN battle
+          activate Ability_1
+        ELSE
+          pass
+      ELSE IF 'X' pressed THEN
+        IF Player IS IN battle
+          activate Ability_2
+        ELSE
+          pass
+      ELSE IF 'C' pressed THEN
+        IF Player IS IN battle
+          activate Ability_3
+      ELSE
+        pass
+      END MOVEMENT  
+    ELSE
+      disable Player Controls
+
+### **Gantt Chart**
+**Note:** On Week 9 Saturday (December 14th) I will be going back to China for Christmas and I won't return until next year January 29th. Since the great firewall of China blocks access to Unity and VS code, I will not be able to work on this project in Week 10 so I will have to finish everything by Week 9.
+
+![Gantt Chart](/images/Gantt%20Chart.png)
