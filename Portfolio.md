@@ -69,7 +69,7 @@ Since my game will be suitable for PC only, players can only interact with the g
   - When the user presses the A/left arrow key, the character will move left
   - When the user presses the D/right arrow key, the character will move right
 - Players can jump by pressing the W/spacebar/up arrow key
-- Players can sneak/crouch by pressing the S/down arrow key
+- Players can crouch by pressing the S/down arrow key
 - Players can interact with objects and NPCs by pressing the E key
   - When they press the E key on an object, depending on what type of object it is, the player can either add it to their inventory, open the object, or the object can deal effects on the player
   - When they press the E key on a NPC, they can activate their dialogue. The user can proceed with the NPC's dialogue by pressing the F key
@@ -132,9 +132,9 @@ Personal information must be stored securely and can only be collected with the 
 #### **Fairness and Representation:**
 The game should avoid bias or stereotypes by ensuring that the characters, enemies, and story elements are diverse and respectful of different genders, races, and cultures.
 #### **Mental and Emotional Well-Being:**
-The game should balance challenge with reward and offer difficulty settings to ensure that players do not feel excessively frustrated. The game should also avoid excessive violence or disturbing content to ensure that the game does not negatively affect the mental or emotional well-being of the players.
+The game should balance challenge with reward and offer difficulty settings to ensure that players do not feel excessively frustrated. The game should also avoid excessive violent or disturbing content to ensure that the game does not negatively affect the mental or emotional well-being of the players.
 #### **Cultural Sensitivities:**
-The game should avoid using any symbols, themes, or language that could be deemed inappropriate or offensive in various cultural contexts. The game should be free from any culturally specific content that might alienate or harm players from different backgrounds.
+The game should avoid using any symbols, themes, or language that could be deemed inappropriate or offensive in various cultural contexts. The game should be free from any culturally specific content that might offend players from different backgrounds.
 
 ## **Section 2: Researching and Planning**
 ### **Exploration of Existing Ideas**
@@ -163,10 +163,14 @@ The game should avoid using any symbols, themes, or language that could be deeme
 | **The Binding of Isaac Gameplay** ![The Binding of Isaac Gameplay Image](/images/the-binding-of-isaac/the-binding-of-isaac-gameplay.jpg) | Huge variety of items and power-ups available for the player to use | High level of difficulty and very complex | Story elements are delivered through cryptic clues and symbolism |
 
 ### **Flowchart and Pseudocode**
-User Interaction Pseudocode   
+**User Interaction Flowchart**
+
+![Flowchart](/images/UserInteractionFlowchart.png)
+
+**User Interaction Pseudocode**
 
     WHILE Dialogue IS NOT active
-      BEGIN MOVEMENT
+      BEGIN INTERACTION
       INPUT userInput
       IF 'D' pressed THEN
         Move Player right
@@ -184,14 +188,15 @@ User Interaction Pseudocode
           pass
       ELSE IF 'E' pressed THEN
         IF Player interacting WITH Object THEN
-          IF Object IS obtainable THEN
+          IF Object IS collectible THEN
             collect Object
           ELSE IF Object IS openable THEN
             open Object
-          ELSE IF Object IS harmful THEN
-            Object give Player NEGATIVE Effects
           ELSE
-            Object give Player POSITIVE Effects
+            IF Consumable IS harmful THEN
+              Consumable gives Player NEGATIVE Effects
+            ELSE
+              Consumable gives Player POSITIVE Effects
         ELSE IF Player interacting WITH NPC THEN
           activate Dialogue
         ELSE
@@ -203,7 +208,6 @@ User Interaction Pseudocode
           continue Dialogue
         ELSE
           pass
-      END MOVEMENT
       ELSE IF 'O' pressed THEN
         IF Player IS IN battle
           equip Weapon on right
@@ -229,11 +233,11 @@ User Interaction Pseudocode
           activate Ability_3
       ELSE
         pass
-      END MOVEMENT  
+      END INTERACTION
     ELSE
       disable Player Controls
 
 ### **Gantt Chart**
-**Note:** On Week 9 Saturday (December 14th) I will be going back to China for Christmas and I won't return until next year January 29th. Since the great firewall of China blocks access to Unity and VS code, I will not be able to work on this project in Week 10 so I will have to finish everything by Week 9.
+**Note:** On Week 9 Saturday (December 14th) I will be going back to China for Christmas and I won't return until next year January 29th. Since the Great Firewall of China blocks access to Unity and VS code, I will not be able to work on this project in Week 10 so I will have to finish everything by Week 9.
 
 ![Gantt Chart](/images/Gantt%20Chart.png)
