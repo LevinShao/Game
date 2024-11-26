@@ -147,25 +147,25 @@ The game should avoid using any symbols, themes, or language that could be deeme
 | Game 1 | Plus | Minus | Interesting |
 | --- | --- | --- | --- |
 | **Dead Cells (2018)** | Satisfying combat system | High level of difficulty  | The levels are kept fresh and original thanks to procedural generation |
-| **Dead Cells Cover** ![Dead Cells Cover Image](/images/dead-cells/dead-cells-cover.jpg) | Amazing pixel art with atmospheric environments | Lack of lore and narrative depth | Perma-death feature adds tension and excitement for the player |
-| **Dead Cells Gameplay** ![Dead Cells Gameplay Image](/images/dead-cells/dead-cells-gameplay.jpg) | Very responsive controls | Repetitive grinding is required to unlock new weapons and upgrades | Weapons and abilities can radically change the player's playstyle |
+| **Dead Cells Cover** ![Dead Cells Cover Image](images/Game%20Images/dead-cells/dead-cells-cover.jpg) | Amazing pixel art with atmospheric environments | Lack of lore and narrative depth | Perma-death feature adds tension and excitement for the player |
+| **Dead Cells Gameplay** ![Dead Cells Gameplay Image](images/Game%20Images/dead-cells/dead-cells-gameplay.jpg) | Very responsive controls | Repetitive grinding is required to unlock new weapons and upgrades | Weapons and abilities can radically change the player's playstyle |
 
 | Game 2 | Plus | Minus | Interesting |
 | --- | --- | --- | --- |
 | **Slay the Spire (2019)** | Innovative card-based combat system | Becomes very boring and repetitive over time | Deck-building mechanic adds layers of strategy to the game |
-| **Slay the Spire Cover** ![Slay the Spire Cover Image](/images/slay-the-spire/slay-the-spire-cover.jpg) | Requires deep thinking and problem solving skills | Lack of animation and graphics | Combines roguelike elements with card games |
-| **Slay the Spire Gameplay** ![Slay the Spire Gameplay Image](/images/slay-the-spire/slay-the-spire-gameplay.jpg) | Every run feels different thanks to randomization | Some RNG can ruin good strategies in a single move | Powerful combos can be created by synergizing cards |
+| **Slay the Spire Cover** ![Slay the Spire Cover Image](images/Game%20Images/slay-the-spire/slay-the-spire-cover.jpg) | Requires deep thinking and problem solving skills | Lack of animation and graphics | Combines roguelike elements with card games |
+| **Slay the Spire Gameplay** ![Slay the Spire Gameplay Image](images/Game%20Images/slay-the-spire/slay-the-spire-gameplay.jpg) | Every run feels different thanks to randomization | Some RNG can ruin good strategies in a single move | Powerful combos can be created by synergizing cards |
 
 | Game 3 | Plus | Minus | Interesting |
 | --- | --- | --- | --- |
 | **The Binding of Isaac (2011)** | Endless replayability due to randomization | Contains dark and grotesque themes and imagery | Unpredictable combinations of items makes the game more thrilling |
-| **The Binding of Isaac Cover** ![The Binding of Isaac Cover Image](/images/the-binding-of-isaac/the-binding-of-isaac-cover.jpg) | Challenging yet rewarding gameplay | Can feel overwhelming with its many items and enemies | Exciting and addictive due to procedurally generated rooms and item drops |
-| **The Binding of Isaac Gameplay** ![The Binding of Isaac Gameplay Image](/images/the-binding-of-isaac/the-binding-of-isaac-gameplay.jpg) | Huge variety of items and power-ups available for the player to use | High level of difficulty and very complex | Story elements are delivered through cryptic clues and symbolism |
+| **The Binding of Isaac Cover** ![The Binding of Isaac Cover Image](images/Game%20Images/the-binding-of-isaac/the-binding-of-isaac-cover.jpg) | Challenging yet rewarding gameplay | Can feel overwhelming with its many items and enemies | Exciting and addictive due to procedurally generated rooms and item drops |
+| **The Binding of Isaac Gameplay** ![The Binding of Isaac Gameplay Image](images/Game%20Images/the-binding-of-isaac/the-binding-of-isaac-gameplay.jpg) | Huge variety of items and power-ups available for the player to use | High level of difficulty and very complex | Story elements are delivered through cryptic clues and symbolism |
 
 ### **Flowchart and Pseudocode**
 **User Interaction Flowchart**
 
-![Flowchart](/images/UserInteractionFlowchart.png)
+![Flowchart](images/UserInteractionFlowchart.png)
 
 **User Interaction Pseudocode**
 
@@ -240,4 +240,4 @@ The game should avoid using any symbols, themes, or language that could be deeme
 ### **Gantt Chart**
 **Note:** On Week 9 Saturday (December 14th) I will be going back to China for Christmas and I won't return until next year January 29th. Since the Great Firewall of China blocks access to Unity and VS code, I will not be able to work on this project in Week 10 so I will have to finish everything by Week 9.
 
-![Gantt Chart](/images/Gantt%20Chart.png)
+![Gantt Chart](images/Gantt%20Chart.png)

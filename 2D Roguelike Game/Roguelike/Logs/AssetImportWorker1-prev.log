@@ -11,19 +11,19 @@ C:\Program Files\Unity 6000.0.25f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/levin.shao/Documents/GitHub/Game/2D Roguelike Game/Roguelike
+C:/Users/levin.shao/Documents/GitHub/Sand-Adventure/2D Roguelike Game/Roguelike
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56035
+58825
 -job-worker-count
 5
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: C:/Users/levin.shao/Documents/GitHub/Game/2D Roguelike Game/Roguelike
-C:/Users/levin.shao/Documents/GitHub/Game/2D Roguelike Game/Roguelike
+Successfully changed project path to: C:/Users/levin.shao/Documents/GitHub/Sand-Adventure/2D Roguelike Game/Roguelike
+C:/Users/levin.shao/Documents/GitHub/Sand-Adventure/2D Roguelike Game/Roguelike
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,12 +59,12 @@ C:/Users/levin.shao/Documents/GitHub/Game/2D Roguelike Game/Roguelike
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16200]  Target information:
+Player connection [33604]  Target information:
 
-Player connection [16200]  * "[IP] 10.213.1.35 [Port] 0 [Flags] 2 [Guid] 492868949 [EditorId] 492868949 [Version] 1048832 [Id] WindowsEditor(7,04CF4BA72B7DP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [33604]  * "[IP] 10.213.1.35 [Port] 0 [Flags] 2 [Guid] 2694703073 [EditorId] 2694703073 [Version] 1048832 [Id] WindowsEditor(7,04CF4BA72B7DP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [16200] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [16200] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [33604] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [33604] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,11 +75,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.16 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.90 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.25f1 (4859ab7b5a49)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/levin.shao/Documents/GitHub/Game/2D Roguelike Game/Roguelike/Assets
+[Subsystems] Discovering subsystems at path C:/Users/levin.shao/Documents/GitHub/Sand-Adventure/2D Roguelike Game/Roguelike/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -91,44 +91,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.0.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.0.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.0.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.0.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002024 seconds.
-- Loaded All Assemblies, in  0.385 seconds
+Registered in 0.001657 seconds.
+- Loaded All Assemblies, in  0.341 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.359 seconds
-Domain Reload Profiling: 743ms
-	BeginReloadAssembly (144ms)
+- Finished resetting the current domain, in  0.336 seconds
+Domain Reload Profiling: 676ms
+	BeginReloadAssembly (129ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (146ms)
-		LoadAssemblies (142ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (126ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (141ms)
-				TypeCache.ScanAssembly (128ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (114ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (360ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (337ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (315ms)
+		SetupLoadedEditorAssemblies (301ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (212ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -136,740 +136,292 @@ Domain Reload Profiling: 743ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.256 seconds
-Refreshing native plugins compatible for Editor in 1.69 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.117 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
-The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
-
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.350 seconds
-Domain Reload Profiling: 2603ms
-	BeginReloadAssembly (403ms)
+- Finished resetting the current domain, in  1.040 seconds
+Domain Reload Profiling: 2155ms
+	BeginReloadAssembly (412ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (755ms)
-		LoadAssemblies (461ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (401ms)
-			TypeCache.Refresh (256ms)
-				TypeCache.ScanAssembly (228ms)
-			BuildScriptInfoCaches (117ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (1351ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1036ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (776ms)
-			ProcessInitializeOnLoadMethodAttributes (128ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.93 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 205 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6108 unused Assets / (4.8 MB). Loaded Objects now: 6884.
-Memory consumption went from 195.7 MB to 190.9 MB.
-Total: 13.190500 ms (FindLiveObjects: 1.082000 ms CreateObjectMapping: 0.894400 ms MarkObjects: 6.723900 ms  DeleteObjects: 4.487000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 251205.338382 seconds.
-  path: Assets/Scripts/BoardManager.cs
-  artifactKey: Guid(78b59defca943614499b66a4a098280f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BoardManager.cs using Guid(78b59defca943614499b66a4a098280f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36c640c27017ccbc0ae64ded557e5e5e') in 0.0051249 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.738 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.114 seconds
-Domain Reload Profiling: 1853ms
-	BeginReloadAssembly (205ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (47ms)
 	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (458ms)
-		LoadAssemblies (365ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (598ms)
+		LoadAssemblies (416ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (193ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (170ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1114ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (835ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (662ms)
-			ProcessInitializeOnLoadMethodAttributes (94ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 1.43 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6106 unused Assets / (4.3 MB). Loaded Objects now: 6889.
-Memory consumption went from 164.5 MB to 160.2 MB.
-Total: 7.050800 ms (FindLiveObjects: 0.495900 ms CreateObjectMapping: 0.412100 ms MarkObjects: 4.387800 ms  DeleteObjects: 1.753200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.689 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.209 seconds
-Domain Reload Profiling: 1898ms
-	BeginReloadAssembly (206ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (414ms)
-		LoadAssemblies (329ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (182ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (164ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1210ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (854ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (689ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 2.35 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6106 unused Assets / (4.7 MB). Loaded Objects now: 6891.
-Memory consumption went from 164.5 MB to 159.8 MB.
-Total: 13.379600 ms (FindLiveObjects: 0.925400 ms CreateObjectMapping: 1.286200 ms MarkObjects: 6.878000 ms  DeleteObjects: 4.288700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.714 seconds
-Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.273 seconds
-Domain Reload Profiling: 1989ms
-	BeginReloadAssembly (187ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (466ms)
-		LoadAssemblies (314ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (239ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (211ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1274ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (912ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (742ms)
-			ProcessInitializeOnLoadMethodAttributes (85ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 1.72 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6106 unused Assets / (4.6 MB). Loaded Objects now: 6893.
-Memory consumption went from 164.5 MB to 159.9 MB.
-Total: 13.009300 ms (FindLiveObjects: 0.878600 ms CreateObjectMapping: 1.244600 ms MarkObjects: 7.095600 ms  DeleteObjects: 3.788700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.728 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.205 seconds
-Domain Reload Profiling: 1933ms
-	BeginReloadAssembly (205ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (459ms)
-		LoadAssemblies (333ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (233ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (210ms)
+		AnalyzeDomain (306ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (156ms)
+			BuildScriptInfoCaches (116ms)
 			ResolveRequiredComponents (12ms)
-	FinalizeReload (1205ms)
+	FinalizeReload (1041ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (864ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (687ms)
-			ProcessInitializeOnLoadMethodAttributes (87ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6106 unused Assets / (4.6 MB). Loaded Objects now: 6895.
-Memory consumption went from 164.5 MB to 159.9 MB.
-Total: 15.591100 ms (FindLiveObjects: 1.005200 ms CreateObjectMapping: 1.448800 ms MarkObjects: 8.628200 ms  DeleteObjects: 4.504800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.676 seconds
-Refreshing native plugins compatible for Editor in 1.36 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.240 seconds
-Domain Reload Profiling: 1918ms
-	BeginReloadAssembly (186ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (421ms)
-		LoadAssemblies (316ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (195ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (175ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1241ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (879ms)
+		SetupLoadedEditorAssemblies (796ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (707ms)
-			ProcessInitializeOnLoadMethodAttributes (88ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6106 unused Assets / (4.6 MB). Loaded Objects now: 6897.
-Memory consumption went from 164.4 MB to 159.8 MB.
-Total: 13.923800 ms (FindLiveObjects: 0.860200 ms CreateObjectMapping: 0.921500 ms MarkObjects: 7.738800 ms  DeleteObjects: 4.401500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.696 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.185 seconds
-Domain Reload Profiling: 1882ms
-	BeginReloadAssembly (188ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (444ms)
-		LoadAssemblies (315ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (213ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (194ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1186ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (856ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (690ms)
-			ProcessInitializeOnLoadMethodAttributes (87ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6106 unused Assets / (4.7 MB). Loaded Objects now: 6899.
-Memory consumption went from 164.5 MB to 159.8 MB.
-Total: 12.329000 ms (FindLiveObjects: 0.685400 ms CreateObjectMapping: 0.748100 ms MarkObjects: 6.860300 ms  DeleteObjects: 4.034000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.721 seconds
-Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.083 seconds
-Domain Reload Profiling: 1804ms
-	BeginReloadAssembly (192ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (450ms)
-		LoadAssemblies (326ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (219ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (195ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1084ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (776ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (626ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (603ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 1.80 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6106 unused Assets / (4.4 MB). Loaded Objects now: 6901.
-Memory consumption went from 164.5 MB to 160.1 MB.
-Total: 8.841300 ms (FindLiveObjects: 0.534700 ms CreateObjectMapping: 0.438400 ms MarkObjects: 5.345500 ms  DeleteObjects: 2.520800 ms)
+Unloading 205 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6109 unused Assets / (4.7 MB). Loaded Objects now: 6885.
+Memory consumption went from 195.8 MB to 191.1 MB.
+Total: 11.605900 ms (FindLiveObjects: 0.727100 ms CreateObjectMapping: 0.753000 ms MarkObjects: 6.880600 ms  DeleteObjects: 3.242300 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.701 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+Received Import Request.
+  Time since last request: 322813.330315 seconds.
+  path: Assets/Tiles/Scavengers2_SpriteSheet_35.asset
+  artifactKey: Guid(6771366928644a244b0cb61c30441cbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Scavengers2_SpriteSheet_35.asset using Guid(6771366928644a244b0cb61c30441cbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8be9d906e9d88d4b6a458a235bcc7c09') in 0.2086046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.199 seconds
-Domain Reload Profiling: 1900ms
-	BeginReloadAssembly (195ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (432ms)
-		LoadAssemblies (331ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (198ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (180ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1200ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (852ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (671ms)
-			ProcessInitializeOnLoadMethodAttributes (88ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 1.83 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6106 unused Assets / (4.7 MB). Loaded Objects now: 6903.
-Memory consumption went from 164.5 MB to 159.8 MB.
-Total: 15.591900 ms (FindLiveObjects: 1.164100 ms CreateObjectMapping: 0.978400 ms MarkObjects: 7.995300 ms  DeleteObjects: 5.451300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.686 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Scavengers2_SpriteSheet_19.asset
+  artifactKey: Guid(284ac2d559db18c40ac4636cc8fe1e1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Scavengers2_SpriteSheet_19.asset using Guid(284ac2d559db18c40ac4636cc8fe1e1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9178f9c68e30734355cbc54f9a0fad2e') in 0.016371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.392 seconds
-Domain Reload Profiling: 2079ms
-	BeginReloadAssembly (185ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (421ms)
-		LoadAssemblies (315ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (192ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (168ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1393ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1020ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (815ms)
-			ProcessInitializeOnLoadMethodAttributes (94ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 2.36 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6106 unused Assets / (5.0 MB). Loaded Objects now: 6905.
-Memory consumption went from 164.5 MB to 159.5 MB.
-Total: 14.401600 ms (FindLiveObjects: 0.900400 ms CreateObjectMapping: 0.883400 ms MarkObjects: 7.351900 ms  DeleteObjects: 5.262600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.693 seconds
-Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tiles/Scavengers2_SpriteSheet_2.asset
+  artifactKey: Guid(3498240bda8e5734a99d43b33b150f02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Scavengers2_SpriteSheet_2.asset using Guid(3498240bda8e5734a99d43b33b150f02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '216d9155f6d48a679d741572bcd7c601') in 0.0169495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
-
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.202 seconds
-Domain Reload Profiling: 1895ms
-	BeginReloadAssembly (189ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (423ms)
-		LoadAssemblies (319ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (191ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (173ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1203ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (840ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (668ms)
-			ProcessInitializeOnLoadMethodAttributes (85ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 2.18 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6106 unused Assets / (4.5 MB). Loaded Objects now: 6907.
-Memory consumption went from 164.5 MB to 159.9 MB.
-Total: 12.403300 ms (FindLiveObjects: 0.692000 ms CreateObjectMapping: 0.913900 ms MarkObjects: 7.010000 ms  DeleteObjects: 3.785600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6096 unused Assets / (4.0 MB). Loaded Objects now: 6907.
-Memory consumption went from 164.6 MB to 160.6 MB.
-Total: 9.994400 ms (FindLiveObjects: 0.549700 ms CreateObjectMapping: 0.444000 ms MarkObjects: 6.688000 ms  DeleteObjects: 2.310900 ms)
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tiles/Scavengers2_SpriteSheet_13.asset
+  artifactKey: Guid(181be3b6e18637e46b129c5b2a93875c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Scavengers2_SpriteSheet_13.asset using Guid(181be3b6e18637e46b129c5b2a93875c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '326fbe9338b0b37856718b723d01749f') in 0.0166123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6096 unused Assets / (4.2 MB). Loaded Objects now: 6907.
-Memory consumption went from 164.6 MB to 160.4 MB.
-Total: 7.764000 ms (FindLiveObjects: 0.479100 ms CreateObjectMapping: 0.437600 ms MarkObjects: 5.204800 ms  DeleteObjects: 1.641200 ms)
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Assets_SpriteSheet4_2.asset
+  artifactKey: Guid(529a0ca93bbcd974b8fb146b1faae644) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Assets_SpriteSheet4_2.asset using Guid(529a0ca93bbcd974b8fb146b1faae644) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75c1a6b7745e106d4472289b44c9a975') in 0.0143808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6096 unused Assets / (4.2 MB). Loaded Objects now: 6907.
-Memory consumption went from 164.6 MB to 160.4 MB.
-Total: 8.059800 ms (FindLiveObjects: 0.453000 ms CreateObjectMapping: 0.389900 ms MarkObjects: 5.545300 ms  DeleteObjects: 1.670200 ms)
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tiles/Scavengers2_SpriteSheet_37.asset
+  artifactKey: Guid(abcd47fe0f6acf1458c28801b772793b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Scavengers2_SpriteSheet_37.asset using Guid(abcd47fe0f6acf1458c28801b772793b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba42ed87d9f950d9c18cefdc19bc1183') in 0.0127915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.77 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6096 unused Assets / (4.3 MB). Loaded Objects now: 6907.
-Memory consumption went from 164.6 MB to 160.4 MB.
-Total: 10.199600 ms (FindLiveObjects: 1.085900 ms CreateObjectMapping: 0.750100 ms MarkObjects: 5.779400 ms  DeleteObjects: 2.583200 ms)
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Settings/UniversalRP.asset
+  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05480e8a568ff15bee343ad0cc929477') in 0.0535451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6096 unused Assets / (5.1 MB). Loaded Objects now: 6907.
-Memory consumption went from 164.6 MB to 159.5 MB.
-Total: 11.102300 ms (FindLiveObjects: 0.492900 ms CreateObjectMapping: 0.449600 ms MarkObjects: 7.251700 ms  DeleteObjects: 2.906500 ms)
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Assets_SpriteSheet4_5.asset
+  artifactKey: Guid(3ad0b8afd2ea7844a8d7743a05aa5b5a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Assets_SpriteSheet4_5.asset using Guid(3ad0b8afd2ea7844a8d7743a05aa5b5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e75e85d9debe65c0412583a7c780e7a') in 0.0110789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Scavengers2_SpriteSheet_17.asset
+  artifactKey: Guid(cbf731cf4c5b6be4baf59c8a7e436c8c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Scavengers2_SpriteSheet_17.asset using Guid(cbf731cf4c5b6be4baf59c8a7e436c8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2e3c25196cf9b807357e4d7088562cf') in 0.0144897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Assets_SpriteSheet4_0.asset
+  artifactKey: Guid(b316f968166ac60438540bbd1ae2d42e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Assets_SpriteSheet4_0.asset using Guid(b316f968166ac60438540bbd1ae2d42e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'adeb19d68fc7db9e697b5d51e3135631') in 0.0171912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiles/Scavengers2_SpriteSheet_21.asset
+  artifactKey: Guid(ee37f06a2a94d6443938e2e9545e1b62) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Scavengers2_SpriteSheet_21.asset using Guid(ee37f06a2a94d6443938e2e9545e1b62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddb2d59e311bbea274199b25e5bc5735') in 0.0164396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Audio/soda1.aif
+  artifactKey: Guid(f19e8fa9180a5eb4c8d0061d12560324) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/soda1.aif using Guid(f19e8fa9180a5eb4c8d0061d12560324) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4010c79e2291b4b7bcc65f51ef1fff64') in 0.0502351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tiles/Scavengers2_SpriteSheet_38.asset
+  artifactKey: Guid(9e0b9025cc5f8f440916909c7e8f2c41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Scavengers2_SpriteSheet_38.asset using Guid(9e0b9025cc5f8f440916909c7e8f2c41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae5163ca013f41eef81a00745e6144a9') in 0.0118348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/UI/Attack.png
+  artifactKey: Guid(98c09658ff912a04eae79b81917db6e2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/UI/Attack.png using Guid(98c09658ff912a04eae79b81917db6e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a959bfa241e070580a3c36817b87a2fb') in 0.0812967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/UI/Defense.png
+  artifactKey: Guid(47baf68848a8d9449a709ee579ee433d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/UI/Defense.png using Guid(47baf68848a8d9449a709ee579ee433d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bcf9f7f2fc6659c8e8f8e19348983dde') in 0.0300844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Scavengers2_SpriteSheet_7.asset
+  artifactKey: Guid(b557d6c6ecb7b7e4fb1656cf687d03e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Scavengers2_SpriteSheet_7.asset using Guid(b557d6c6ecb7b7e4fb1656cf687d03e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41a5150f68d0c41f42b119f520ef93c6') in 0.0137692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiles/Scavengers2_SpriteSheet_16.asset
+  artifactKey: Guid(7eb724ce8a6d31d4bbad2aea83912abb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Scavengers2_SpriteSheet_16.asset using Guid(7eb724ce8a6d31d4bbad2aea83912abb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0f1e0f16e046d8c6432f095607daecf') in 0.019493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Scavengers2_SpriteSheet_14.asset
+  artifactKey: Guid(fc190b33ca9571342abd8d162253bec6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Scavengers2_SpriteSheet_14.asset using Guid(fc190b33ca9571342abd8d162253bec6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e394016601dfcc2e71eda50778d6c1d1') in 0.0208142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/Scavengers2_SpriteSheet_8.asset
+  artifactKey: Guid(6d1b39ca556053142a873d963984bc7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Scavengers2_SpriteSheet_8.asset using Guid(6d1b39ca556053142a873d963984bc7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5256b48a7cc8382b1db7ea9584aed09d') in 0.0199009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/Scavengers2_SpriteSheet_30.asset
+  artifactKey: Guid(845c6bc5d0e8b9c4d97a5beac5e325b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Scavengers2_SpriteSheet_30.asset using Guid(845c6bc5d0e8b9c4d97a5beac5e325b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b0f0c446285409cf5953e8ad9efe708') in 0.0173494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Tiles/Scavengers2_SpriteSheet_0.asset
+  artifactKey: Guid(4f347239fccf53c49ba297afe8f629e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Scavengers2_SpriteSheet_0.asset using Guid(4f347239fccf53c49ba297afe8f629e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '263250e21549d0765ef8d6c1f5169d73') in 0.0185901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Scavengers2_SpriteSheet_23.asset
+  artifactKey: Guid(f41ffa15a3d207247b25a5af868dbc41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Scavengers2_SpriteSheet_23.asset using Guid(f41ffa15a3d207247b25a5af868dbc41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ad1532f553c4e53ac2c5bfb7c57ec4e') in 0.0197275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/footstep1.aif
+  artifactKey: Guid(64e8ec2dd0eb99c4f987657e92ceddae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/footstep1.aif using Guid(64e8ec2dd0eb99c4f987657e92ceddae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b35ae9f725aaed9354f08069633108b4') in 0.0477379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Audio/chop2.aif
+  artifactKey: Guid(44062608bd37e3f47945c0142925580b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/chop2.aif using Guid(44062608bd37e3f47945c0142925580b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ebad29a95ca4d3dbae97829de5af2ff') in 0.0536941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Tiles/Scavengers2_SpriteSheet_5.asset
+  artifactKey: Guid(bd84f1a21f6ab5947b5cce3a6c52c857) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Scavengers2_SpriteSheet_5.asset using Guid(bd84f1a21f6ab5947b5cce3a6c52c857) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af7ff77d771689cf4929eb79f5e6b5fd') in 0.0191663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/Assets_SpriteSheet4_1.asset
+  artifactKey: Guid(0378df385156e2c4fbd1c823401320ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Assets_SpriteSheet4_1.asset using Guid(0378df385156e2c4fbd1c823401320ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33b50e5947eb6f5d18915e3efce1028e') in 0.0180088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tiles/Scavengers2_SpriteSheet_6.asset
+  artifactKey: Guid(52101e235a07cdb44a6789e2b013bd62) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Scavengers2_SpriteSheet_6.asset using Guid(52101e235a07cdb44a6789e2b013bd62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9bb8284f694171b8f14bcf248557478') in 0.0191036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Environment/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Environment/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd8d8a47bada81a597d35e6a6d47e496') in 0.0803364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiles/Scavengers2_SpriteSheet_52.asset
+  artifactKey: Guid(e16994a2d49808142a090a5fee55e221) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Tiles/Scavengers2_SpriteSheet_52.asset using Guid(e16994a2d49808142a090a5fee55e221) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d35035932025ff63cf8d7db7b6ff413') in 0.0137247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Audio/music.aif
+  artifactKey: Guid(6b28cec73adbd8f408f90f9c45e1e8af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/music.aif using Guid(6b28cec73adbd8f408f90f9c45e1e8af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75e684ac0a3ea44821b3f346c19fdf53') in 0.063945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
