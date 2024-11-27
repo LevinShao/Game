@@ -411,7 +411,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e1405da3e16abc244b423cd7ea59bfad, type: 2}
   WallTiles:
   - {fileID: 11400000, guid: 54804550d7ee8b8479c38ea7b8cbfaf0, type: 2}
-  Player: {fileID: 1966012155}
 --- !u!1 &911026005
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,6 +440,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd0f12d5e0802f242a6867870baa0fad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BoardManager: {fileID: 869989125}
+  PlayerController: {fileID: 1966012155}
 --- !u!4 &911026007
 Transform:
   m_ObjectHideFlags: 0

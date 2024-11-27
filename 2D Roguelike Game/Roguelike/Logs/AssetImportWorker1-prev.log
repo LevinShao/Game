@@ -15,7 +15,7 @@ C:/Users/levin.shao/Documents/GitHub/Sand-Adventure/2D Roguelike Game/Roguelike
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58825
+57016
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/levin.shao/Documents/GitHub/Sand-Adventure/2D Roguelike Game/Roguelike
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [33604]  Target information:
+Player connection [30088]  Target information:
 
-Player connection [33604]  * "[IP] 10.213.1.35 [Port] 0 [Flags] 2 [Guid] 2694703073 [EditorId] 2694703073 [Version] 1048832 [Id] WindowsEditor(7,04CF4BA72B7DP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [30088]  * "[IP] 10.213.1.35 [Port] 0 [Flags] 2 [Guid] 3060591936 [EditorId] 3060591936 [Version] 1048832 [Id] WindowsEditor(7,04CF4BA72B7DP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [33604] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [33604] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30088] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30088] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.90 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.13 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.25f1 (4859ab7b5a49)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.25f1/Editor/Data/Resources/UnitySubsystems
@@ -91,44 +91,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.0.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.0.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.0.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.0.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001657 seconds.
-- Loaded All Assemblies, in  0.341 seconds
+Registered in 0.001775 seconds.
+- Loaded All Assemblies, in  0.381 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.336 seconds
-Domain Reload Profiling: 676ms
-	BeginReloadAssembly (129ms)
+- Finished resetting the current domain, in  0.368 seconds
+Domain Reload Profiling: 747ms
+	BeginReloadAssembly (131ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (128ms)
-		LoadAssemblies (126ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (129ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (126ms)
-			TypeCache.Refresh (124ms)
-				TypeCache.ScanAssembly (114ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (134ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (337ms)
+	FinalizeReload (368ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (301ms)
+		SetupLoadedEditorAssemblies (319ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (7ms)
 			ProcessInitializeOnLoadAttributes (210ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -136,292 +136,190 @@ Domain Reload Profiling: 676ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.117 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.074 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.040 seconds
-Domain Reload Profiling: 2155ms
-	BeginReloadAssembly (412ms)
+- Finished resetting the current domain, in  1.108 seconds
+Domain Reload Profiling: 2178ms
+	BeginReloadAssembly (390ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (598ms)
-		LoadAssemblies (416ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (592ms)
+		LoadAssemblies (378ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (306ms)
-			TypeCache.Refresh (175ms)
-				TypeCache.ScanAssembly (156ms)
-			BuildScriptInfoCaches (116ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1041ms)
+		AnalyzeDomain (313ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (171ms)
+			BuildScriptInfoCaches (112ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1109ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (796ms)
+		SetupLoadedEditorAssemblies (858ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (603ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (666ms)
 			ProcessInitializeOnLoadMethodAttributes (104ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.40 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 205 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6109 unused Assets / (4.7 MB). Loaded Objects now: 6885.
-Memory consumption went from 195.8 MB to 191.1 MB.
-Total: 11.605900 ms (FindLiveObjects: 0.727100 ms CreateObjectMapping: 0.753000 ms MarkObjects: 6.880600 ms  DeleteObjects: 3.242300 ms)
+Unloading 6516 unused Assets / (4.6 MB). Loaded Objects now: 7293.
+Memory consumption went from 199.5 MB to 194.8 MB.
+Total: 9.181300 ms (FindLiveObjects: 0.537300 ms CreateObjectMapping: 0.459100 ms MarkObjects: 5.750000 ms  DeleteObjects: 2.432500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 322813.330315 seconds.
-  path: Assets/Tiles/Scavengers2_SpriteSheet_35.asset
-  artifactKey: Guid(6771366928644a244b0cb61c30441cbb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Scavengers2_SpriteSheet_35.asset using Guid(6771366928644a244b0cb61c30441cbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8be9d906e9d88d4b6a458a235bcc7c09') in 0.2086046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tiles/Scavengers2_SpriteSheet_19.asset
-  artifactKey: Guid(284ac2d559db18c40ac4636cc8fe1e1b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Scavengers2_SpriteSheet_19.asset using Guid(284ac2d559db18c40ac4636cc8fe1e1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9178f9c68e30734355cbc54f9a0fad2e') in 0.016371 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Tiles/Scavengers2_SpriteSheet_2.asset
-  artifactKey: Guid(3498240bda8e5734a99d43b33b150f02) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Scavengers2_SpriteSheet_2.asset using Guid(3498240bda8e5734a99d43b33b150f02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '216d9155f6d48a679d741572bcd7c601') in 0.0169495 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Tiles/Scavengers2_SpriteSheet_13.asset
-  artifactKey: Guid(181be3b6e18637e46b129c5b2a93875c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Scavengers2_SpriteSheet_13.asset using Guid(181be3b6e18637e46b129c5b2a93875c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '326fbe9338b0b37856718b723d01749f') in 0.0166123 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tiles/Assets_SpriteSheet4_2.asset
-  artifactKey: Guid(529a0ca93bbcd974b8fb146b1faae644) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Assets_SpriteSheet4_2.asset using Guid(529a0ca93bbcd974b8fb146b1faae644) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75c1a6b7745e106d4472289b44c9a975') in 0.0143808 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Tiles/Scavengers2_SpriteSheet_37.asset
-  artifactKey: Guid(abcd47fe0f6acf1458c28801b772793b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Scavengers2_SpriteSheet_37.asset using Guid(abcd47fe0f6acf1458c28801b772793b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba42ed87d9f950d9c18cefdc19bc1183') in 0.0127915 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Settings/UniversalRP.asset
-  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05480e8a568ff15bee343ad0cc929477') in 0.0535451 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tiles/Assets_SpriteSheet4_5.asset
-  artifactKey: Guid(3ad0b8afd2ea7844a8d7743a05aa5b5a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Assets_SpriteSheet4_5.asset using Guid(3ad0b8afd2ea7844a8d7743a05aa5b5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e75e85d9debe65c0412583a7c780e7a') in 0.0110789 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tiles/Scavengers2_SpriteSheet_17.asset
-  artifactKey: Guid(cbf731cf4c5b6be4baf59c8a7e436c8c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Scavengers2_SpriteSheet_17.asset using Guid(cbf731cf4c5b6be4baf59c8a7e436c8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2e3c25196cf9b807357e4d7088562cf') in 0.0144897 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tiles/Assets_SpriteSheet4_0.asset
-  artifactKey: Guid(b316f968166ac60438540bbd1ae2d42e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Assets_SpriteSheet4_0.asset using Guid(b316f968166ac60438540bbd1ae2d42e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'adeb19d68fc7db9e697b5d51e3135631') in 0.0171912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tiles/Scavengers2_SpriteSheet_21.asset
-  artifactKey: Guid(ee37f06a2a94d6443938e2e9545e1b62) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Scavengers2_SpriteSheet_21.asset using Guid(ee37f06a2a94d6443938e2e9545e1b62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddb2d59e311bbea274199b25e5bc5735') in 0.0164396 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Audio/soda1.aif
-  artifactKey: Guid(f19e8fa9180a5eb4c8d0061d12560324) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Audio/soda1.aif using Guid(f19e8fa9180a5eb4c8d0061d12560324) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4010c79e2291b4b7bcc65f51ef1fff64') in 0.0502351 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tiles/Scavengers2_SpriteSheet_38.asset
-  artifactKey: Guid(9e0b9025cc5f8f440916909c7e8f2c41) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Scavengers2_SpriteSheet_38.asset using Guid(9e0b9025cc5f8f440916909c7e8f2c41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae5163ca013f41eef81a00745e6144a9') in 0.0118348 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Sprites/UI/Attack.png
-  artifactKey: Guid(98c09658ff912a04eae79b81917db6e2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Sprites/UI/Attack.png using Guid(98c09658ff912a04eae79b81917db6e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a959bfa241e070580a3c36817b87a2fb') in 0.0812967 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sprites/UI/Defense.png
-  artifactKey: Guid(47baf68848a8d9449a709ee579ee433d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Sprites/UI/Defense.png using Guid(47baf68848a8d9449a709ee579ee433d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bcf9f7f2fc6659c8e8f8e19348983dde') in 0.0300844 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tiles/Scavengers2_SpriteSheet_7.asset
-  artifactKey: Guid(b557d6c6ecb7b7e4fb1656cf687d03e6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Scavengers2_SpriteSheet_7.asset using Guid(b557d6c6ecb7b7e4fb1656cf687d03e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41a5150f68d0c41f42b119f520ef93c6') in 0.0137692 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tiles/Scavengers2_SpriteSheet_16.asset
-  artifactKey: Guid(7eb724ce8a6d31d4bbad2aea83912abb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Scavengers2_SpriteSheet_16.asset using Guid(7eb724ce8a6d31d4bbad2aea83912abb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0f1e0f16e046d8c6432f095607daecf') in 0.019493 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tiles/Scavengers2_SpriteSheet_14.asset
-  artifactKey: Guid(fc190b33ca9571342abd8d162253bec6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Scavengers2_SpriteSheet_14.asset using Guid(fc190b33ca9571342abd8d162253bec6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e394016601dfcc2e71eda50778d6c1d1') in 0.0208142 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Tiles/Scavengers2_SpriteSheet_8.asset
-  artifactKey: Guid(6d1b39ca556053142a873d963984bc7c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Scavengers2_SpriteSheet_8.asset using Guid(6d1b39ca556053142a873d963984bc7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5256b48a7cc8382b1db7ea9584aed09d') in 0.0199009 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Tiles/Scavengers2_SpriteSheet_30.asset
-  artifactKey: Guid(845c6bc5d0e8b9c4d97a5beac5e325b3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Scavengers2_SpriteSheet_30.asset using Guid(845c6bc5d0e8b9c4d97a5beac5e325b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b0f0c446285409cf5953e8ad9efe708') in 0.0173494 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Tiles/Scavengers2_SpriteSheet_0.asset
-  artifactKey: Guid(4f347239fccf53c49ba297afe8f629e5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Scavengers2_SpriteSheet_0.asset using Guid(4f347239fccf53c49ba297afe8f629e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '263250e21549d0765ef8d6c1f5169d73') in 0.0185901 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tiles/Scavengers2_SpriteSheet_23.asset
-  artifactKey: Guid(f41ffa15a3d207247b25a5af868dbc41) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Scavengers2_SpriteSheet_23.asset using Guid(f41ffa15a3d207247b25a5af868dbc41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ad1532f553c4e53ac2c5bfb7c57ec4e') in 0.0197275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Audio/footstep1.aif
-  artifactKey: Guid(64e8ec2dd0eb99c4f987657e92ceddae) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Audio/footstep1.aif using Guid(64e8ec2dd0eb99c4f987657e92ceddae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b35ae9f725aaed9354f08069633108b4') in 0.0477379 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Audio/chop2.aif
-  artifactKey: Guid(44062608bd37e3f47945c0142925580b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Audio/chop2.aif using Guid(44062608bd37e3f47945c0142925580b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ebad29a95ca4d3dbae97829de5af2ff') in 0.0536941 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Tiles/Scavengers2_SpriteSheet_5.asset
-  artifactKey: Guid(bd84f1a21f6ab5947b5cce3a6c52c857) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Scavengers2_SpriteSheet_5.asset using Guid(bd84f1a21f6ab5947b5cce3a6c52c857) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af7ff77d771689cf4929eb79f5e6b5fd') in 0.0191663 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tiles/Assets_SpriteSheet4_1.asset
-  artifactKey: Guid(0378df385156e2c4fbd1c823401320ac) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Assets_SpriteSheet4_1.asset using Guid(0378df385156e2c4fbd1c823401320ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33b50e5947eb6f5d18915e3efce1028e') in 0.0180088 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tiles/Scavengers2_SpriteSheet_6.asset
-  artifactKey: Guid(52101e235a07cdb44a6789e2b013bd62) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Scavengers2_SpriteSheet_6.asset using Guid(52101e235a07cdb44a6789e2b013bd62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9bb8284f694171b8f14bcf248557478') in 0.0191036 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
+  Time since last request: 323534.204831 seconds.
   path: Assets/Environment/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Environment/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd8d8a47bada81a597d35e6a6d47e496') in 0.0803364 seconds
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd541277b7b5d5b4ffc059a344eafc9ba') in 0.015332 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tiles/Scavengers2_SpriteSheet_52.asset
-  artifactKey: Guid(e16994a2d49808142a090a5fee55e221) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tiles/Scavengers2_SpriteSheet_52.asset using Guid(e16994a2d49808142a090a5fee55e221) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d35035932025ff63cf8d7db7b6ff413') in 0.0137247 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6504 unused Assets / (4.6 MB). Loaded Objects now: 7297.
+Memory consumption went from 165.7 MB to 161.1 MB.
+Total: 9.459800 ms (FindLiveObjects: 0.504900 ms CreateObjectMapping: 0.502000 ms MarkObjects: 5.324100 ms  DeleteObjects: 3.127800 ms)
 
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.728 seconds
+Refreshing native plugins compatible for Editor in 2.31 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.183 seconds
+Domain Reload Profiling: 1911ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (465ms)
+		LoadAssemblies (330ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (198ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1183ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (865ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (716ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 2.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6515 unused Assets / (5.1 MB). Loaded Objects now: 7300.
+Memory consumption went from 168.8 MB to 163.8 MB.
+Total: 18.950500 ms (FindLiveObjects: 1.160400 ms CreateObjectMapping: 1.342700 ms MarkObjects: 10.465600 ms  DeleteObjects: 5.979300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Audio/music.aif
-  artifactKey: Guid(6b28cec73adbd8f408f90f9c45e1e8af) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Audio/music.aif using Guid(6b28cec73adbd8f408f90f9c45e1e8af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75e684ac0a3ea44821b3f346c19fdf53') in 0.063945 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 21.279743 seconds.
+  path: Assets/Scripts/TurnManager.cs
+  artifactKey: Guid(0ee9123ceb54be343a3806647c78189c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TurnManager.cs using Guid(0ee9123ceb54be343a3806647c78189c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '768849aa42220c6a91938b29d0eb8e69') in 0.0036395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6505 unused Assets / (4.4 MB). Loaded Objects now: 7301.
+Memory consumption went from 169.0 MB to 164.6 MB.
+Total: 11.771200 ms (FindLiveObjects: 0.719500 ms CreateObjectMapping: 0.582800 ms MarkObjects: 8.257600 ms  DeleteObjects: 2.210000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6506 unused Assets / (4.3 MB). Loaded Objects now: 7302.
+Memory consumption went from 169.0 MB to 164.7 MB.
+Total: 7.992900 ms (FindLiveObjects: 0.531500 ms CreateObjectMapping: 0.457600 ms MarkObjects: 4.642300 ms  DeleteObjects: 2.360600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.711 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.136 seconds
+Domain Reload Profiling: 1848ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (453ms)
+		LoadAssemblies (320ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (225ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (204ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1137ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (786ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (619ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6516 unused Assets / (4.7 MB). Loaded Objects now: 7303.
+Memory consumption went from 168.8 MB to 164.1 MB.
+Total: 7.909900 ms (FindLiveObjects: 0.617500 ms CreateObjectMapping: 0.706100 ms MarkObjects: 4.345700 ms  DeleteObjects: 2.239600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
